@@ -1,0 +1,64 @@
+body{
+	background-color: black;
+	margin: 0px 0px;
+}
+.square{
+	background-color: black;
+	padding-bottom: 30%;
+	float:left;
+	width:30%;
+	margin: 1.66%;
+	transition: all 1.0s;
+	-webkit-transition: all 1.0s;
+	-moz-transition: all 1.0s ;
+	border-radius: 15%
+}
+.container{
+	width: 600px;
+	margin :20px auto;
+}
+.heading{
+	color: white;
+	text-align: center;
+}
+.selected{
+	background-color: rgb(40,100,100);
+	color: white;
+}
+#guesscolordisplay{
+	font-size: 200%;
+}
+.buttons_bar{
+	background-color: white;
+	height: 35px;
+	text-align: center;
+	margin-top: -19px;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 800;
+	color: rgb(40,100,100);
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	/*/more browser friendly way to use transition*/
+	-moz-transition: all 0.5s ;
+	outline: none;
+}
+h1{
+	margin: 0px auto;
+	padding-top: 20px 0px;
+}
+#spacing{
+	display: inline-block;
+	width: 20%;
+};
+button: hover{
+	background-color: rgb(40,100,100);
+	color: white;
+}
